@@ -23,9 +23,13 @@ public class Main {
 //		FindNumbersWithEvenNumberOfDigits f1 = new FindNumbersWithEvenNumberOfDigits();
 //		System.out.println(f1.findNumbers(nums));
 		
-		int[] nums = {-7,-3,2,3,11};
-		SquaresOfASortedArray s1 = new SquaresOfASortedArray();
-		System.out.println(Arrays.toString(s1.sortedSquares(nums)));
+//		int[] nums = {-7,-3,2,3,11};
+//		SquaresOfASortedArray s1 = new SquaresOfASortedArray();
+//		System.out.println(Arrays.toString(s1.sortedSquares(nums)));
+		
+		int[] nums = {1,0,2,3,0,4,5,0};
+		DuplicateZeros d1 = new DuplicateZeros();
+		d1.duplicateZeros(nums);
 		
 	}
 
