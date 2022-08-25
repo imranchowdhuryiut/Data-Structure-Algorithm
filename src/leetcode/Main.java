@@ -27,9 +27,16 @@ public class Main {
 //		SquaresOfASortedArray s1 = new SquaresOfASortedArray();
 //		System.out.println(Arrays.toString(s1.sortedSquares(nums)));
 		
-		int[] nums = {1,0,2,3,0,4,5,0};
-		DuplicateZeros d1 = new DuplicateZeros();
-		d1.duplicateZeros(nums);
+//		int[] nums = {1,0,2,3,0,4,5,0};
+//		DuplicateZeros d1 = new DuplicateZeros();
+//		d1.duplicateZeros(nums);
+		
+		int[] nums1 = {1,2,3,0,0,0};
+		int m = 3;
+		int[] nums2 = {2,5,6};
+		int n = 3;
+		MergeSortedArray m1 = new MergeSortedArray();
+		m1.merge(nums1, m, nums2, n);
 		
 	}
 
