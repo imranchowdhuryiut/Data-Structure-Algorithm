@@ -51,9 +51,18 @@ public class Main {
 //		m1.moveZeroes(arr);
 		
 		
-		int[] arr = {3,1,2,4};
-		SortArrayByParity s1 = new SortArrayByParity();
-		System.out.println(Arrays.toString(s1.sortArrayByParity(arr)));
+//		int[] arr = {3,1,2,4};
+//		SortArrayByParity s1 = new SortArrayByParity();
+//		System.out.println(Arrays.toString(s1.sortArrayByParity(arr)));
+
+//		int[] arr = {0,3, 2, 1};
+//		ValidMountainArray v1 = new ValidMountainArray();
+//		System.out.println(v1.validMountainArray(arr));
+		
+//		int[] arr = {0,3, 2, 1};
+//		ReplaceElementsWithGreatestElementOnRightSide r1 = new ReplaceElementsWithGreatestElementOnRightSide();
+//		System.out.println(Arrays.toString(r1.replaceElements(arr)));
+
 	}
 
 }
