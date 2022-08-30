@@ -31,13 +31,29 @@ public class Main {
 //		DuplicateZeros d1 = new DuplicateZeros();
 //		d1.duplicateZeros(nums);
 		
-		int[] nums1 = {1,2,3,0,0,0};
-		int m = 3;
-		int[] nums2 = {2,5,6};
-		int n = 3;
-		MergeSortedArray m1 = new MergeSortedArray();
-		m1.merge(nums1, m, nums2, n);
+//		int[] nums1 = {1,2,3,0,0,0};
+//		int m = 3;
+//		int[] nums2 = {2,5,6};
+//		int n = 3;
+//		MergeSortedArray m1 = new MergeSortedArray();
+//		m1.merge(nums1, m, nums2, n);
 		
+//		int[] nums = {1, 1, 2};
+//		RemoveDuplicatesFromSortedArray r1 = new RemoveDuplicatesFromSortedArray();
+//		System.out.println(r1.removeDuplicates(nums));
+		
+//		int[] arr = {-2,0,10,-19,4,6,-8};
+//		CheckIfNAndItsDoubleExist c1 = new CheckIfNAndItsDoubleExist();
+//		System.out.println(c1.checkIfExist(arr));
+		
+//		int[] arr = {0};
+//		MoveZeroes m1 = new MoveZeroes();
+//		m1.moveZeroes(arr);
+		
+		
+		int[] arr = {3,1,2,4};
+		SortArrayByParity s1 = new SortArrayByParity();
+		System.out.println(Arrays.toString(s1.sortArrayByParity(arr)));
 	}
 
 }
