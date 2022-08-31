@@ -55,6 +55,7 @@ public class Main {
 //		int[] arr = {3,1,2,4};
 //		SortArrayByParity s1 = new SortArrayByParity();
 //		System.out.println(Arrays.toString(s1.sortArrayByParity(arr)));
+
 		
 //		Combinations c1 = new Combinations();
 //		List<List<Integer>> res = c1.combine(4, 2);
@@ -65,16 +66,27 @@ public class Main {
 //			System.out.println();
 //		}
 		
-		int[] nums = {2,3,5};
-		CombinationSum c1 = new CombinationSum();
-		List<List<Integer>> res = c1.combinationSum(nums, 8);
-		for (int i = 0; i < res.size(); i++) {
-			for (int j = 0; j < res.get(i).size(); j++) {
-				System.out.print(res.get(i).get(j) + " ");
-			}
-			System.out.println();
-		}
+//		int[] nums = {2,3,5};
+//		CombinationSum c1 = new CombinationSum();
+//		List<List<Integer>> res = c1.combinationSum(nums, 8);
+//		for (int i = 0; i < res.size(); i++) {
+//			for (int j = 0; j < res.get(i).size(); j++) {
+//				System.out.print(res.get(i).get(j) + " ");
+//			}
+//			System.out.println();
+//		}
 		
+
+
+//		int[] arr = {0,3, 2, 1};
+//		ValidMountainArray v1 = new ValidMountainArray();
+//		System.out.println(v1.validMountainArray(arr));
+		
+//		int[] arr = {0,3, 2, 1};
+//		ReplaceElementsWithGreatestElementOnRightSide r1 = new ReplaceElementsWithGreatestElementOnRightSide();
+//		System.out.println(Arrays.toString(r1.replaceElements(arr)));
+
+
 	}
 
 }
