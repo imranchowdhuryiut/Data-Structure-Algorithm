@@ -86,7 +86,15 @@ public class Main {
 //		ReplaceElementsWithGreatestElementOnRightSide r1 = new ReplaceElementsWithGreatestElementOnRightSide();
 //		System.out.println(Arrays.toString(r1.replaceElements(arr)));
 
-
+		int[] nums = {10,1,2,7,6,1,5};
+		CombinationSumII c1 = new CombinationSumII();
+		List<List<Integer>> res = c1.combinationSum2(nums, 8);
+		for (int i = 0; i < res.size(); i++) {
+			for (int j = 0; j < res.get(i).size(); j++) {
+				System.out.print(res.get(i).get(j) + " ");
+			}
+			System.out.println();
+		}
 	}
 
 }
