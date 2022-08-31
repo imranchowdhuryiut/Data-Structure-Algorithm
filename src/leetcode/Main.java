@@ -1,6 +1,7 @@
 package leetcode;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 
@@ -51,9 +52,29 @@ public class Main {
 //		m1.moveZeroes(arr);
 		
 		
-		int[] arr = {3,1,2,4};
-		SortArrayByParity s1 = new SortArrayByParity();
-		System.out.println(Arrays.toString(s1.sortArrayByParity(arr)));
+//		int[] arr = {3,1,2,4};
+//		SortArrayByParity s1 = new SortArrayByParity();
+//		System.out.println(Arrays.toString(s1.sortArrayByParity(arr)));
+		
+//		Combinations c1 = new Combinations();
+//		List<List<Integer>> res = c1.combine(4, 2);
+//		for (int i = 0; i < res.size(); i++) {
+//			for (int j = 0; j < res.get(i).size(); j++) {
+//				System.out.print(res.get(i).get(j) + " ");
+//			}
+//			System.out.println();
+//		}
+		
+		int[] nums = {2,3,5};
+		CombinationSum c1 = new CombinationSum();
+		List<List<Integer>> res = c1.combinationSum(nums, 8);
+		for (int i = 0; i < res.size(); i++) {
+			for (int j = 0; j < res.get(i).size(); j++) {
+				System.out.print(res.get(i).get(j) + " ");
+			}
+			System.out.println();
+		}
+		
 	}
 
 }
