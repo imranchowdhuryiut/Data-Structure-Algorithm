@@ -1,12 +1,15 @@
 package leetcode;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class CombinationSumII {
 
 	public List<List<Integer>> combinationSum2(int[] candidates, int target) {
 		List<List<Integer>> result = new ArrayList<List<Integer>>();
+		Arrays.sort(candidates);
 		findCombinationSum2(result, new ArrayList<Integer>(), 0, candidates, target);
 		return result;
 	}
@@ -19,23 +22,20 @@ public class CombinationSumII {
 			int target
 	) {
 		// TODO Auto-generated method stub
-		if (comb.size() != 0) {
-			int sum = 0;
-			for(int j = 0; j < comb.size(); j++) {
-				sum = sum + comb.get(j);
-			}
-			if (target == sum) {
-				result.add(new ArrayList<>(comb));
-				return;
-			} else if (sum > target) {
-				return;
-			}
+		if (target == 0) {
+			result.add(new ArrayList<>(comb));
+			return;
+		} else if (target < 0) {
+			return;
 		}
 		for(int i = position; i < candidates.length; i++) {
-			comb.add(candidates[i]);
-			findCombinationSum2(result, comb, i + 1, candidates, target);
-			comb.remove(comb.size() - 1);
+			if(i > position && candidates[i] == candidates[i-1]) continue;
+			if (candidates[i] <= target ) {
+				comb.add(candidates[i]);
+				findCombinationSum2(result, comb, i + 1, candidates, target - candidates[i]);
+				comb.remove(comb.size() - 1);
+			}
 		}
 	}
-
+	
 }

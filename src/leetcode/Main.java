@@ -86,15 +86,52 @@ public class Main {
 //		ReplaceElementsWithGreatestElementOnRightSide r1 = new ReplaceElementsWithGreatestElementOnRightSide();
 //		System.out.println(Arrays.toString(r1.replaceElements(arr)));
 
-		int[] nums = {10,1,2,7,6,1,5};
-		CombinationSumII c1 = new CombinationSumII();
-		List<List<Integer>> res = c1.combinationSum2(nums, 8);
+//		int[] nums = {4,4,2,1,4,2,2,1,3};
+//		CombinationSumII c1 = new CombinationSumII();
+//		List<List<Integer>> res = c1.combinationSum2(nums, 6);
+//		for (int i = 0; i < res.size(); i++) {
+//			for (int j = 0; j < res.get(i).size(); j++) {
+//				System.out.print(res.get(i).get(j) + " ");
+//			}
+//			System.out.println();
+//		}
+		
+//		CombinationSumIII c1 = new CombinationSumIII();
+//		List<List<Integer>> res = c1.combinationSum3(3, 7);
+//		for (int i = 0; i < res.size(); i++) {
+//			for (int j = 0; j < res.get(i).size(); j++) {
+//				System.out.print(res.get(i).get(j) + " ");
+//			}
+//			System.out.println();
+//		}
+		
+//		int[] nums = {1,1,1,1};
+//		NumberOfGoodPairs n1  = new NumberOfGoodPairs();
+//		System.out.println(n1.numIdenticalPairs(nums));
+		
+//		JewelsAndStones j1 = new JewelsAndStones();
+//		System.out.println(j1.numJewelsInStones("aA", "aAAbbbb"));
+		
+//		int[] nums = {1, 2, 3};
+//		Subsets s1 = new Subsets();
+//		List<List<Integer>> res = s1.subsets(nums);
+//		for (int i = 0; i < res.size(); i++) {
+//			for (int j = 0; j < res.get(i).size(); j++) {
+//				System.out.print(res.get(i).get(j) + " ");
+//			}
+//			System.out.println();
+//		}
+		
+		int[] nums = {1, 2, 2};
+		SubsetsII s1 = new SubsetsII();
+		List<List<Integer>> res = s1.subsetsWithDup(nums);
 		for (int i = 0; i < res.size(); i++) {
 			for (int j = 0; j < res.get(i).size(); j++) {
 				System.out.print(res.get(i).get(j) + " ");
 			}
 			System.out.println();
 		}
+		
 	}
 
 }
