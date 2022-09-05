@@ -123,6 +123,9 @@ public class Main {
 //		}
 		
 //		int[] nums = {4,1,0};
+
+//		int[] nums = {1, 2, 2};
+
 //		SubsetsII s1 = new SubsetsII();
 //		List<List<Integer>> res = s1.subsetsWithDup(nums);
 //		for (int i = 0; i < res.size(); i++) {
@@ -132,6 +135,7 @@ public class Main {
 //			System.out.println();
 //		}
 		
+
 //		DecodeTheMessage d1 = new DecodeTheMessage();
 //		System.out.println(d1.decodeMessage("the quick brown fox jumps over the lazy dog", "vkbs bs t suepuv"));
 	
@@ -152,15 +156,17 @@ public class Main {
 		
 //		NThTribonacciNumber n1 = new NThTribonacciNumber();
 //		System.out.println(n1.tribonacci(4));
+
+//		LetterCasePermutation l1 = new LetterCasePermutation();
+//		List<String> res = l1.letterCasePermutation("a1b2");
+//		for(int i = 0; i < res.size(); i++) {
+//			System.out.println(res.get(i));
+//		}
 		
-		PascalsTriangle p1 = new PascalsTriangle();
-		List<List<Integer>> res = p1.generate(4);
-		for (int i = 0; i < res.size(); i++) {
-			for (int j = 0; j < res.get(i).size(); j++) {
-				System.out.print(res.get(i).get(j) + " ");
-			}
-			System.out.println();
-		}
+//		int[] nums = {-1,0,3,5,9,12};
+//		BinarySearch b1 = new BinarySearch();
+//		System.out.println(b1.search(nums, 9));
+
 		
 	}
 
