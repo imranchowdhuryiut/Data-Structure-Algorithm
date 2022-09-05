@@ -3,6 +3,9 @@ package leetcode;
 import java.util.Arrays;
 import java.util.List;
 
+import leetcode.listnode.ListNode;
+import leetcode.listnode.ReverseLinkedList;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -167,6 +170,9 @@ public class Main {
 //		BinarySearch b1 = new BinarySearch();
 //		System.out.println(b1.search(nums, 9));
 
+		ReverseLinkedList r1 = new ReverseLinkedList();
+		ListNode head = new ListNode(1, new ListNode(2, new ListNode(3,  new ListNode(4, new ListNode(5, null)))));
+		r1.reverseList(head);
 		
 	}
 
