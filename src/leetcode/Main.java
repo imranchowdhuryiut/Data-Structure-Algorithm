@@ -122,9 +122,39 @@ public class Main {
 //			System.out.println();
 //		}
 		
-		int[] nums = {1, 2, 2};
-		SubsetsII s1 = new SubsetsII();
-		List<List<Integer>> res = s1.subsetsWithDup(nums);
+//		int[] nums = {4,1,0};
+//		SubsetsII s1 = new SubsetsII();
+//		List<List<Integer>> res = s1.subsetsWithDup(nums);
+//		for (int i = 0; i < res.size(); i++) {
+//			for (int j = 0; j < res.get(i).size(); j++) {
+//				System.out.print(res.get(i).get(j) + " ");
+//			}
+//			System.out.println();
+//		}
+		
+//		DecodeTheMessage d1 = new DecodeTheMessage();
+//		System.out.println(d1.decodeMessage("the quick brown fox jumps over the lazy dog", "vkbs bs t suepuv"));
+	
+//		int[] nums = {7, 8, 7, 0};
+//		NRepeatedElementInSize2NArray nRepeatedElementInSize2NArray = new NRepeatedElementInSize2NArray();
+//		System.out.println(nRepeatedElementInSize2NArray.repeatedNTimes2(nums));
+	
+//		int[] nums = {1, 3};
+//		SumOfAllSubsetXORTotals s1 = new SumOfAllSubsetXORTotals();
+//		System.out.println(s1.subsetXORSum(nums));
+	
+//		ClimbingStairs c1 = new ClimbingStairs();
+//		System.out.println(c1.climbStairs(3));
+		
+//		int[] nums = {10, 15, 20};
+//		MinCostClimbingStairs m1 = new MinCostClimbingStairs();
+//		System.out.println(m1.minCostClimbingStairs(nums));
+		
+//		NThTribonacciNumber n1 = new NThTribonacciNumber();
+//		System.out.println(n1.tribonacci(4));
+		
+		PascalsTriangle p1 = new PascalsTriangle();
+		List<List<Integer>> res = p1.generate(4);
 		for (int i = 0; i < res.size(); i++) {
 			for (int j = 0; j < res.get(i).size(); j++) {
 				System.out.print(res.get(i).get(j) + " ");
