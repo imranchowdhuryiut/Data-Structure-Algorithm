@@ -2,7 +2,6 @@ package leetcode;
 
 import java.util.Arrays;
 import java.util.List;
-import leetcode.listnode.ListNode;
 
 public class Main {
 
@@ -124,9 +123,6 @@ public class Main {
 //		}
 		
 //		int[] nums = {4,1,0};
-
-//		int[] nums = {1, 2, 2};
-
 //		SubsetsII s1 = new SubsetsII();
 //		List<List<Integer>> res = s1.subsetsWithDup(nums);
 //		for (int i = 0; i < res.size(); i++) {
@@ -136,7 +132,6 @@ public class Main {
 //			System.out.println();
 //		}
 		
-
 //		DecodeTheMessage d1 = new DecodeTheMessage();
 //		System.out.println(d1.decodeMessage("the quick brown fox jumps over the lazy dog", "vkbs bs t suepuv"));
 	
@@ -157,28 +152,6 @@ public class Main {
 		
 //		NThTribonacciNumber n1 = new NThTribonacciNumber();
 //		System.out.println(n1.tribonacci(4));
-
-//		LetterCasePermutation l1 = new LetterCasePermutation();
-//		List<String> res = l1.letterCasePermutation("a1b2");
-//		for(int i = 0; i < res.size(); i++) {
-//			System.out.println(res.get(i));
-//		}
-		
-//		int[] nums = {-1,0,3,5,9,12};
-//		BinarySearch b1 = new BinarySearch();
-//		System.out.println(b1.search(nums, 9));
-		
-//		int[] nums = {2,5,1,3,4,7};
-//		ShuffleTheArray s1 = new ShuffleTheArray();
-//		System.out.println(Arrays.toString(s1.shuffle(nums, 3)));
-		
-//		String[] bank = {"011001","000000","010100","001000"};
-//		NumberOfLaserBeamsInABank n1 = new NumberOfLaserBeamsInABank();
-//		System.out.println(n1.numberOfBeams(bank));
-		
-		int[] nums = {4,5,6,7,0,2,1,3};
-		ShuffleString s1 = new ShuffleString();
-		System.out.println(s1.restoreString("codeleet", nums));
 		
 	}
 
