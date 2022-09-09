@@ -3,6 +3,7 @@ package leetcode;
 import java.util.Arrays;
 import java.util.List;
 import leetcode.listnode.ListNode;
+import leetcode.listnode.MergeNodesInBetweenZeros;
 
 public class Main {
 
@@ -176,9 +177,13 @@ public class Main {
 //		NumberOfLaserBeamsInABank n1 = new NumberOfLaserBeamsInABank();
 //		System.out.println(n1.numberOfBeams(bank));
 		
-		int[] nums = {4,5,6,7,0,2,1,3};
-		ShuffleString s1 = new ShuffleString();
-		System.out.println(s1.restoreString("codeleet", nums));
+//		int[] nums = {4,5,6,7,0,2,1,3};
+//		ShuffleString s1 = new ShuffleString();
+//		System.out.println(s1.restoreString("codeleet", nums));
+	
+//		ListNode head = new ListNode(0, new ListNode(1, new ListNode(0, new ListNode(3, new ListNode(0, new ListNode(2, new ListNode(2,new ListNode(0))))))));
+//		MergeNodesInBetweenZeros m1 = new MergeNodesInBetweenZeros();
+//		m1.mergeNodes(head);
 		
 	}
 
