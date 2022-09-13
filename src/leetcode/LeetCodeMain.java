@@ -5,7 +5,7 @@ import java.util.List;
 import leetcode.listnode.ListNode;
 import leetcode.listnode.MergeNodesInBetweenZeros;
 
-public class Main {
+public class LeetCodeMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -184,6 +184,10 @@ public class Main {
 //		ListNode head = new ListNode(0, new ListNode(1, new ListNode(0, new ListNode(3, new ListNode(0, new ListNode(2, new ListNode(2,new ListNode(0))))))));
 //		MergeNodesInBetweenZeros m1 = new MergeNodesInBetweenZeros();
 //		m1.mergeNodes(head);
+		
+//		int[] plants = {3, 2, 4, 2, 1};
+//		WateringPlants w1 = new WateringPlants();
+//		System.out.println(w1.wateringPlants(plants, 6));
 		
 	}
 
