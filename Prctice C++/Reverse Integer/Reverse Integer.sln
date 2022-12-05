@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse Integer", "Reverse Integer\Reverse Integer.vcxproj", "{F82536FB-455A-4530-B84B-301A829E684A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F82536FB-455A-4530-B84B-301A829E684A}.Debug|x64.ActiveCfg = Debug|x64
+		{F82536FB-455A-4530-B84B-301A829E684A}.Debug|x64.Build.0 = Debug|x64
+		{F82536FB-455A-4530-B84B-301A829E684A}.Debug|x86.ActiveCfg = Debug|Win32
+		{F82536FB-455A-4530-B84B-301A829E684A}.Debug|x86.Build.0 = Debug|Win32
+		{F82536FB-455A-4530-B84B-301A829E684A}.Release|x64.ActiveCfg = Release|x64
+		{F82536FB-455A-4530-B84B-301A829E684A}.Release|x64.Build.0 = Release|x64
+		{F82536FB-455A-4530-B84B-301A829E684A}.Release|x86.ActiveCfg = Release|Win32
+		{F82536FB-455A-4530-B84B-301A829E684A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02CD3458-F588-4220-A2EC-F9EE973F9CEE}
+	EndGlobalSection
+EndGlobal

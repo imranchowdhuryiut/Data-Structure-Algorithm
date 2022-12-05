@@ -189,6 +189,14 @@ public class LeetCodeMain {
 //		WateringPlants w1 = new WateringPlants();
 //		System.out.println(w1.wateringPlants(plants, 6));
 		
+//		int[] digits = {9,8,7,6,5,4,3,2,1,0};
+//		PlusOne p1 = new PlusOne();
+//		System.out.println(Arrays.toString(p1.plusOne(digits)));
+		
+		int[][] points = {{1,2},{3,1},{2,4},{2,3},{4,4}};
+		FindNearestPointThatHasTheSameXOrYCoordinate f1 = new FindNearestPointThatHasTheSameXOrYCoordinate();
+		System.out.println(f1.nearestValidPoint(3, 4, points));
+		
 	}
 
 }

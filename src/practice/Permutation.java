@@ -8,7 +8,7 @@ public class Permutation {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		permutation(0, new ArrayList<Integer>(), 2);
+		permutation(0, new ArrayList<Integer>(), 3);
 	}
 
 	private static void permutation(int depth, ArrayList<Integer> queue, int k) {

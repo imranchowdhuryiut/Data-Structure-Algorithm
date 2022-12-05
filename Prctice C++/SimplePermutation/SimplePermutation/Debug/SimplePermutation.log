@@ -1,0 +1,4 @@
+﻿  SimplePermutation.cpp
+c:\users\imran.c\documents\sourcecodes\demosourcecode\data-structure-algorithm\prctice c++\simplepermutation\simplepermutation\simplepermutation.cpp(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\imran.c\documents\sourcecodes\demosourcecode\data-structure-algorithm\prctice c++\simplepermutation\simplepermutation\simplepermutation.cpp(22): warning C4018: '<': signed/unsigned mismatch
+  SimplePermutation.vcxproj -> C:\Users\imran.c\Documents\SourceCodes\DemoSourceCode\Data-Structure-Algorithm\Prctice C++\SimplePermutation\Debug\SimplePermutation.exe

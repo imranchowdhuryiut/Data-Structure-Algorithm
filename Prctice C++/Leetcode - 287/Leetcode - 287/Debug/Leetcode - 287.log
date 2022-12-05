@@ -1,0 +1,13 @@
+﻿  Leetcode - 287.cpp
+c:\users\imran.c\documents\sourcecodes\demosourcecode\data-structure-algorithm\prctice c++\leetcode - 287\leetcode - 287\leetcode - 287.cpp(13): error C2039: 'l': is not a member of 'std::vector<int,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=int
+          ]
+  c:\users\imran.c\documents\sourcecodes\demosourcecode\data-structure-algorithm\prctice c++\leetcode - 287\leetcode - 287\leetcode - 287.cpp(12): note: see declaration of 'std::vector<int,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=int
+          ]
+c:\users\imran.c\documents\sourcecodes\demosourcecode\data-structure-algorithm\prctice c++\leetcode - 287\leetcode - 287\leetcode - 287.cpp(13): error C2143: syntax error: missing ';' before ')'
+c:\users\imran.c\documents\sourcecodes\demosourcecode\data-structure-algorithm\prctice c++\leetcode - 287\leetcode - 287\leetcode - 287.cpp(14): error C2059: syntax error: '}'

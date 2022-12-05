@@ -1,0 +1,4 @@
+﻿  Leetcode - 1451.cpp
+c:\users\imran.c\documents\sourcecodes\demosourcecode\data-structure-algorithm\prctice c++\leetcode - 1451\leetcode - 1451\leetcode - 1451.cpp(38): warning C4018: '<': signed/unsigned mismatch
+c:\users\imran.c\documents\sourcecodes\demosourcecode\data-structure-algorithm\prctice c++\leetcode - 1451\leetcode - 1451\leetcode - 1451.cpp(61): warning C4018: '<': signed/unsigned mismatch
+c:\users\imran.c\documents\sourcecodes\demosourcecode\data-structure-algorithm\prctice c++\leetcode - 1451\leetcode - 1451\leetcode - 1451.cpp(75): error C2026: string too big, trailing characters truncated

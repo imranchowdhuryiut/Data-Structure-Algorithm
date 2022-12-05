@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1664338917 source:c:\users\imran.c\documents\sourcecodes\demosourcecode\data-structure-algorithm\prctice c++\maximum twin sum of a linked list\main.cpp
+	<iostream>
+	<stack>
+	<stdio.h>
+	<limits>
+

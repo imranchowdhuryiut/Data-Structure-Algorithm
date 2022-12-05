@@ -1,7 +1,5 @@
 package leetcode;
 
-import javax.swing.plaf.basic.BasicArrowButton;
-
 public class NumberOfStepsToReduceANumberToZero {
 
 	public int numberOfSteps(int num) {
